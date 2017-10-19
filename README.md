@@ -1,6 +1,6 @@
 # fqStatN 
 Calculates the statistics of occurrence of ambiguous character 'N', 
-and templates of reads including 'N' in the [FASTQ](https://en.wikipedia.org/wiki/FASTQ_format) file.<br>
+and patterns of reads including 'N' in the [FASTQ](https://en.wikipedia.org/wiki/FASTQ_format) file.<br>
 These statistics helps to better evaluate the quality of the sequencer output.
 
 The program runs on the command line under Linux and Windows.
@@ -70,8 +70,8 @@ pos     count   % of total 'N'
 48      33      0.0793%
 49      1904    4.58%
 
-READ TEMPLATE STATISTICS
-position  10        20        30        40        50    patterns count
+READ PATTERN STATISTICS
+position  10        20        30        40        50    count
 01234567890123456789012345678901234567890123456789
 ----------------------------------------------------------------------
 N.................................................    29566     0.172%
@@ -86,5 +86,6 @@ N.................................................    29566     0.172%
 'N' relative to the total number of nucleotides: 0.00483%
 Reads that include 'N' relative to the total number of reads: 0.211%
 ```
+<br>
 ##
 If you face to bugs, incorrect English, or have commentary/suggestions, please do not hesitate to write me on fedor.naumenko@gmail.com
