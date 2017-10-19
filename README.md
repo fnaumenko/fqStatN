@@ -55,7 +55,7 @@ Compressed file in gzip format (.gz) is acceptable.
 
 ### Output
 The program displays the frequency of occurrence of 'N' in the position in the read, 
-as well as the frequency of the template of the reads containing 'N'.<br>
+as well as the frequency of the pattern of the reads containing 'N'.<br>
 Here is a sample of output:
 ```
 'N' POSITION STATISTICS
@@ -86,6 +86,6 @@ N.................................................    29566     0.172%
 'N' relative to the total number of nucleotides: 0.00483%
 Reads that include 'N' relative to the total number of reads: 0.211%
 ```
-<br>
+
 ##
 If you face to bugs, incorrect English, or have commentary/suggestions, please do not hesitate to write me on fedor.naumenko@gmail.com
