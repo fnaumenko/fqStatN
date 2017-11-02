@@ -101,7 +101,7 @@ void StatN::Scan	(FqFile & fqFile)
 	ULONG cntTotalN = 0, cntTotalReads = 0;
 	readlen k;
 	bool insert;
-	char *read;
+	const char *read;
 	vector<TemplN> templs;
 
 	templs.reserve(20);
